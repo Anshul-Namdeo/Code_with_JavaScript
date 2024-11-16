@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>A5 page</h1>
+    <hr>
+
+    <script>
+        let x = null;
+        console.log(x);
+        console.log(typeof x); //yeh JavaScript ka ek purana bug hai!
+
+        /*
+            "In JavaScript, typeof null returns "object", which is actually a known quirk from the language's early days. This happened because, in the initial implementation of JavaScript, each value was given an internal tag to define its type. Objects were assigned the binary tag 00, and null mistakenly received the same tag.
+
+            This bug was never fixed due to backward compatibility concerns. Many older codebases depend on this behavior, so changing it now could break numerous applications. As a result, even today, typeof null returns "object" in JavaScript."
+        */
+    </script>
+</body>
+</html>

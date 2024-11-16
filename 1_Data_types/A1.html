@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Primtive Datatype in js</h1>
+    <p>String: Represents text data enclosed in single (' '), double (" "), or backticks (` `) for template literals.</p>
+
+    <p>number: Represents both integer and floating-point numbers</p>
+
+    <p>boolean: Represents a logical entity with two possible values: true or false.</p>
+
+    <p>undefined : Represents a variable that has been declared but has not yet been assigned a value</p>
+
+    <p>null: Represents the intentional absence of any object value. It’s often used to indicate “no value” or “empty.”</p>
+
+    <p>bigint: Used for representing integers with arbitrary precision. It allows for safe operations on large integers beyond the range of Number.</p>
+
+    <p>symbol: A unique and immutable data type used primarily to create unique keys for object properties.</p>
+    
+    <script>
+        //Number :
+        let num = 20;
+        console.log(num);
+
+        // String :
+        let name = 'Anshul';
+        let last = "Namdeo";
+        let comp = `Hello ${name} ${last}`;
+        console.log(name);
+        console.log(last);
+        console.log(comp);
+
+        // BigInt :
+        let bigNumber = 123456789012345678901234567890n;
+        console.log(bigNumber);
+
+        // Boolean :
+        isAdmin = true;
+        isLoggedIn = false;
+        console.log(isAdmin);
+        console.log(isLoggedIn);
+
+        // Null :
+        let user = null;
+        console.log(user);
+
+        //Undefined : 
+        let score; // variable declrad but not assign tha value..
+        console.log(score);
+
+        // Symbol:
+        let uniqueId = Symbol("id");
+        console.log(uniqueId);
+    </script>
+</body> 
+</html>
